@@ -1,0 +1,99 @@
+body {
+  background-color: #F2F3F5 !important;
+}
+
+.nav-align{
+  margin-left: 4em;
+}
+
+
+.navbar-links {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.login {
+  margin-right: 5em !important;
+
+}
+
+.logo {
+  height: 25px;
+  width: 30px;
+}
+
+.news-body {
+  background-color: #ffffff;
+  margin-right: 5em;
+  margin-left: 5em;
+  height: 100vh auto;
+}
+
+.news-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(134, 134, 134, .1);
+}
+
+.post-header{
+  display: flex;
+  align-items: center;
+}
+
+.news-rank {
+  margin-top: 5px;
+  min-width: 70px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #FA5700;
+  text-align: center;
+  cursor: pointer;
+}
+
+.news-title {
+  color: #33495F;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.news-create {
+  color: #868686;
+  font-size: .9em;
+  font-weight: 500;
+  margin-top: -10px;
+}
+
+.news-link {
+  color: #868686;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .news-body {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .nav-align{
+    margin-left: .5em;
+  }
+
+  .navbar-links {
+    margin-top: 20px !important;
+    margin-left: 30px !important;
+  }
+
+}
+
+
+.submit-form {
+  color: #FA5700;
+  font-weight: bold;
+}
+
+.spinner{
+  position: fixed;
+  left:50%;
+  top:50%;
+}

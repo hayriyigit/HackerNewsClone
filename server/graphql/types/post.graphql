@@ -1,0 +1,32 @@
+scalar Date
+type Query{
+    post(id: ID!): Post!
+    posts: [Post!]
+    new: [Post!]
+    question: [Post!]
+}
+
+type Post{
+    id: ID!
+    title: String!
+    content: String
+    isUrl: Boolean!
+    url: String
+    isQuestion: Boolean!
+    user_id: ID!
+    createdAt: Date
+    user: User!
+}
+
+type Mutation{
+    createPost(data: createPostInput) : Post!
+}
+
+input createPostInput{
+    title: String!
+    content: String
+    isUrl: Boolean!
+    url: String
+    isQuestion: Boolean!
+    user_id: ID!
+}
